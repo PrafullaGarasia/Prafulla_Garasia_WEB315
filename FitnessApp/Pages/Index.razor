@@ -1,0 +1,11 @@
+﻿@page "/"
+@inject IJSRuntime JsRuntime
+
+<h1>Welcome to @ThemeName</h1>
+<p>Developed by @MyName</p>
+<p>The current date and time is: @DateTime.Now</p>
+
+@code {
+    public string ThemeName => "Fitness";
+    public string MyName => "Prafulla Garasia";
+}
